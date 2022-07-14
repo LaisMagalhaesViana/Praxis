@@ -1,1 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.body{
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card_header {
+    background-color: whitesmoke;
+    padding: 3rem;
+    margin-left: 30rem;
+    margin-top: 5rem;
+    width: 40%;
+    box-shadow: 0px 2px 47px -17px rgba(46,45,46,0.68);
+    border-radius: 7px;
+}
+
+.card_header h1 {
+    background-color: whitesmoke;
+    color: hsl(179, 62%, 43%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.card_header h2 {
+    background-color: whitesmoke;
+    color:  hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size:22px;
+    padding-bottom: 1rem;
+    
+}
+
+.card_header p {
+    background-color: whitesmoke;
+    color: hsl(218, 22%, 67%);
+    font-family: 'Karla', sans-serif;
+    
+}
+
+.card_signup {
+    background-color:hsl(179, 62%, 43%)  ;
+    width: 20%;
+    margin-left: 30rem;
+    padding: 3rem;
+    box-shadow: 0px 2px 47px -17px rgba(46,45,46,0.68);
+    border-radius: 7px;
+    height: 16rem;
+    
+ 
+}
+
+.card_signup h1{
+    background-color:hsl(179, 62%, 43%)  ;
+    font-family: 'Karla', sans-serif;
+    color: whitesmoke;
+    padding-bottom: 1rem;
+}
+
+.text_price {
+    font-size: 32px;
+}
+
+.price_month{
+    font-size: 16px;
+    
+}
+
+.card_signup p{
+    background-color:hsl(179, 62%, 43%)  ;
+    font-family: 'Karla', sans-serif;
+    color: whitesmoke;
+    padding-bottom: 1rem;
+   
+}
+
+.card_signup span{
+    background-color:hsl(179, 62%, 43%)  ;
+    font-family: 'Karla', sans-serif;
+    color:#94E6E8
+}
+
+button{
+    color: whitesmoke;
+    padding: 0,7em 1.7em;
+    background: hsl(71, 73%, 54%);
+    font-size: 18px;
+    border-radius: 0.3em;
+    border: none;
+    box-shadow: 20px 20px 47px -17px  #5AA64E ;
+    width: 100%;
+    height: 3rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    
+}
+
+.card_whyus {
+    background-color:  #4EBFB4;
+    padding: 3rem;
+    width: 20%;
+    height: 16rem;
+    margin-left: 53.3rem;
+    margin-bottom: 5rem;
+    margin-top: -16rem;
+    border-radius: 0.3em;
+}
+
+.card_whyus h1 {
+    font-family: 'Karla', sans-serif;
+    color: whitesmoke;
+    background-color: #4EBFB4;
+    padding-bottom: 1rem;
+}
+
+.card_whyus p {
+    background-color: #4EBFB4;
+    color: #94E6E8;
+    font-family: 'Karla', sans-serif;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
